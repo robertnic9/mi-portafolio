@@ -187,7 +187,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 <div className="flip-card-front">
                   <img src="/" className="" alt="Diseñador web en Formentera" />
                 </div>
-                <div className="flip-card-back">
+                <div className="flip-card-back" loading="lazy">
                   <BreakoutGame />
                 </div>
               </div>
