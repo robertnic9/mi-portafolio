@@ -1,0 +1,17 @@
+.animated-hr {
+  height: 4px;
+  width: 100%;
+  border: none;
+  background: linear-gradient(110deg,  
+    #d4a08c, 20%,  
+    #fed7aa, 50%,  
+    #f6c3a0, 80%,  
+    #ffede0);
+  background-size: 200% 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 99;
+  box-shadow: 0 0px 30px 10px rgba(254, 215, 170, 0.6);
+}
+
+

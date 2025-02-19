@@ -1,0 +1,34 @@
+#contact{
+    min-height: 65vh;
+
+}
+.contact-container {
+    background-color: rgba(25, 25, 25, 0.85);
+    border-radius: 10px;
+    margin-top: 8rem;
+    color: #fed7aa;
+}
+
+.contact-text {
+    font-size: 1.25rem; 
+}
+.contact-text-small {
+    font-size: 1rem;
+    
+}
+
+.contact-icon {
+    width: 1.5rem; 
+    height: 1.5rem;
+}
+
+/* Para los iconos de Redes*/
+.social-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}

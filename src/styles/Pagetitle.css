@@ -1,0 +1,25 @@
+.outlineText {
+  font-size: 3rem; /* Ajusta según sea necesario */
+  color: transparent;
+  -webkit-text-stroke: 1px #fed7aa; /* Para el efecto de contorno */
+  z-index: -1;
+}
+
+
+@media (min-width: 640px) {
+  .outlineText {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .outlineText {
+    font-size: 12rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .outlineText {
+    font-size: 18rem;
+  }
+}

@@ -1,0 +1,13 @@
+/* ProjectsSection.css */
+.projects-section {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 225px; /* Ajusta según sea necesario */
+  margin-bottom: 150px;
+}
+
+.grid {
+  display: grid;
+}
+
+
