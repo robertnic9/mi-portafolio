@@ -1,7 +1,7 @@
 .outlineText {
   font-size: 3rem; /* Ajusta según sea necesario */
   color: transparent;
-  -webkit-text-stroke: 1px #fed7aa; /* Para el efecto de contorno */
+  -webkit-text-stroke: 3px #fed7aa; /* Para el efecto de contorno */
   z-index: -1;
 }
 

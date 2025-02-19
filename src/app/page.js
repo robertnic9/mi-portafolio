@@ -20,7 +20,7 @@ export default function Home() {
         <HelloAnimation onAnimationEnd={() => setShowContent(true)} />
       )}
       {showContent && (
-        <main className="font-thin">
+        <main>
           <Header />
           <Hero />
           <ProjectSection />

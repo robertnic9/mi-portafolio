@@ -60,7 +60,7 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
     <div
       ref={ref}
       className="flex flex-col items-center py-0 md:py-120 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
-      style={{ height: "175vh" }}
+      style={{ height: "165vh" }}
     >
       <motion.h2
         style={{
@@ -150,12 +150,12 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
               <p className="mb-4 uppercase font-bold text-xl bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
                 Robert Nicuta
               </p>
-              <h2 className=" text-xs md:text-[13px] mb-4">
+              <h2 className=" text-xs md:text-sm mb-4">
                 Tengo 19 años, soy un diseñador web y también desarrollo
                 aplicaciones web en Formentera.
               </h2>
 
-              <p className="text-xs md:text-[13px] font-bold bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent mb-4">
+              <p className="text-xs md:text-sm font-bold bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent mb-4">
                 Mi personalidad se basa en tres cosas:
               </p>
 

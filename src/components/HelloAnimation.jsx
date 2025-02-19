@@ -35,7 +35,7 @@ export default function HelloAnimation({ onAnimationEnd }) {
     <AnimatePresence>
       {showAnimation && (
         <motion.div
-          className="fixed inset-0 flex items-center justify-center text-[3rem]"
+          className="fixed inset-0 flex items-center justify-center text-6xl"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 1 } }}
         >

@@ -6,10 +6,10 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center relative mt-[5%]"
+      className="flex flex-col items-center justify-center relative"
     >
       <Pagetitle title="Contact" />
-      <div className="z-6 contact-container p-4 shadow flex flex-col items-center justify-center text-center w-3/4 z-2 ">
+      <div className="z-6 contact-container p-6 shadow flex flex-col items-center justify-center text-center w-3/4 z-2 mt-[2rem]">
         <div className="flex items-center gap-2 contact-text">
           <picture className="flex items-center">
             <svg
