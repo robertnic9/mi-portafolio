@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { cn } from "../../../utils/cdn";
@@ -23,7 +24,7 @@ import { IconWorld } from "@tabler/icons-react";
 import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
-import '@/styles/activities.css'
+import "@/styles/activities.css";
 import BreakoutGame from "../BreakOut";
 
 export const MacbookScroll = ({ src, showGradient, title, badge }) => {
@@ -33,11 +34,55 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
     offset: ["start start", "end start"],
   });
 
+  // Estado para la altura calculada
+  const [calculatedHeight, setCalculatedHeight] = useState("150vh");
   const [isMobile, setIsMobile] = useState(false);
-
+  
   useEffect(() => {
-    if (window && window.innerWidth < 768) {
-      setIsMobile(true);
+    // Asegurarse de que estamos en el cliente
+    if (typeof window !== "undefined") {
+      // Función para detectar condiciones y actualizar altura
+      const updateDimensions = () => {
+        // Detectar zoom/escala
+        const ratio = window.devicePixelRatio;
+        const isZoomed = ratio > 1.10;
+        const isMobileView = window.innerWidth < 768;
+
+        console.log("Current conditions:", {
+          width: window.innerWidth,
+          ratio,
+          isZoomed,
+          isMobileView,
+        });
+
+        // Actualizar estados
+        setIsMobile(isMobileView);
+
+        // Determinar altura basada en condiciones
+        if (isZoomed && !isMobileView) {
+          console.log("Aplicando altura para zoom: 210vh");
+          setCalculatedHeight("210vh");
+          setIsMobile(false);
+
+        } else if (isMobileView) {
+          console.log("Aplicando altura para móvil: 125vh");
+          setCalculatedHeight("125vh");
+        } else {
+          console.log("Aplicando altura normal: 150vh");
+          setCalculatedHeight("150vh");
+        }
+      };
+
+      // Ejecutar inmediatamente al montar
+      updateDimensions();
+
+      // Añadir listener para cambios de tamaño
+      window.addEventListener("resize", updateDimensions);
+
+      // Limpiar al desmontar
+      return () => {
+        window.removeEventListener("resize", updateDimensions);
+      };
     }
   }, []);
 
@@ -59,8 +104,8 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
   return (
     <div
       ref={ref}
-      className="flex flex-col items-center py-0 md:py-120 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50"
-      style={{ height: "165vh" }}
+      className="flex flex-col items-center py-0 md:py-120 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.62]"
+      style={{ height: `${calculatedHeight}` }}
     >
       <motion.h2
         style={{

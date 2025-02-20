@@ -1,14 +1,14 @@
 .outlineText {
-  font-size: 3rem; /* Ajusta según sea necesario */
-  color: transparent;
-  -webkit-text-stroke: 3px #fed7aa; /* Para el efecto de contorno */
+  font-size: 3rem;
+  color: #fed7aa; /* Color normal para móvil */
   z-index: -1;
 }
-
 
 @media (min-width: 640px) {
   .outlineText {
     font-size: 6rem;
+    color: transparent; /* Hace el relleno transparente */
+    -webkit-text-stroke: 3px #fed7aa; /* Aplica el contorno */
   }
 }
 

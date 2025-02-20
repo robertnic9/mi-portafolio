@@ -8,9 +8,9 @@
 }
 #activities .text {
   flex: 1;
-  padding: 10px;
+  padding: 8px;
   min-width: 55%;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 #activities .flip-card {

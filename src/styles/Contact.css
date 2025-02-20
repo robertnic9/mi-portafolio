@@ -33,3 +33,17 @@
   transform: scale(1.1);
 color: #f8eee4;
 }
+
+@media (max-width: 639px) {
+  #contact{
+    margin-top: 1rem;
+    margin-bottom: 5rem
+  }
+
+    .contact-text {
+        font-size: 1rem; 
+    }
+    .contact-text-small {
+        font-size: 0.75rem; 
+    }
+}

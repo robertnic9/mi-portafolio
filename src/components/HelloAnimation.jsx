@@ -21,7 +21,7 @@ export default function HelloAnimation({ onAnimationEnd }) {
 
   useEffect(() => {
     if (index < greetings.length - 1) {
-      const timeout = setTimeout(() => setIndex(index + 1), 500);
+      const timeout = setTimeout(() => setIndex(index + 1), 430);
       return () => clearTimeout(timeout);
     } else {
       setTimeout(() => {

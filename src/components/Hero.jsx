@@ -11,8 +11,8 @@ export default function Hero() {
         Robert Nicuta
       </p>
       <h1
-        className="uppercase text-4xl md:text-8xl mb-4 text-center
-      bg-[linear-gradient(110deg,#000103,35%,#fed7aa,65%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent"
+        className="uppercase text-3xl md:text-8xl mb-4 text-center
+      bg-[linear-gradient(110deg,#0a0f2c,25%,#fed7aa,75%,#bfc9db,50%,#0a0f2c)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent"
       >
         Full-Stack Developer
       </h1>
