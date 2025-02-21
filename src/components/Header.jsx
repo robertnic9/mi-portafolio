@@ -8,7 +8,7 @@ const navItems = [
   { name: "Home", href: "#hero" },
   { name: "Projects", href: "#projects" },
   { name: "About", href: "#about" },
-  { name: "Contact", href: "mailto:robertnicuta80@gmai.com" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Header() {
