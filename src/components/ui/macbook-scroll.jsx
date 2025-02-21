@@ -205,7 +205,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
               </p>
 
               <p className="text-xs md:text-sm">
-                Soy muy{" "}
+                Soy {" "}
                 <span className="font-bold text-xs mb-2 bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
                   curioso
                 </span>

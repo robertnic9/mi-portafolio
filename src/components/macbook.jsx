@@ -7,7 +7,7 @@ export function MacbookScrollDemo() {
       <MacbookScroll
         title={
           <span>
-            Cunado juntas curiosidad, creatividad y determinación <br /> Encuentras la solución.
+            Cuando juntas curiosidad, creatividad y determinación <br /> Encuentras la solución.
           </span>
         }
         badge={

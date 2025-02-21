@@ -13,25 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Robert Nicuta | Diseño y Desarrollo Web en Formentera",
+  title:
+    "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones en Formentera",
   description:
-    "Desarrollador web especializado en Next.js, React, PHP y más. Descubre mis proyectos y cómo puedo ayudarte con tu página web.",
+    "Experto en diseño web y desarrollo de aplicaciones en Formentera. Construyo páginas web atractivas y optimizadas, y creo aplicaciones con tecnologías modernas como Next.js, React y PHP.",
   keywords:
-    "diseño web Formentera, desarrollo web, Next.js, React, PHP, JavaScript, Tailwind, UX/UI, SEO, CSS, Bootstrap, HTML",
+    "diseño web Formentera, desarrollo de aplicaciones, programador web, UX/UI, Next.js, React, PHP, JavaScript, Tailwind, SEO, CSS, HTML, branding digital, web responsive",
   authors: [{ name: "Robert Nicuta" }],
   robots: "index, follow",
   openGraph: {
-    title: "Robert Nicuta | Diseño y Desarrollo Web en Formentera",
+    title: "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones",
     description:
-      "Soy diseñador y desarrollador web especializado en Next.js, React, PHP y más. Descubre mis proyectos y servicios.",
+      "Desarrollador y diseñador web en Formentera, especializado en páginas web atractivas y desarrollo de aplicaciones modernas.",
     url: "https://robertnicuta.vercel.app/",
     siteName: "Robert Nicuta",
     images: [
       {
-        url: "https://robertnicuta.vercel.app/miportafolio.jpg",
+        url: "https://robertnicuta.vercel.app/miportafolio.png",
         width: 1200,
         height: 630,
-        alt: "Robert Nicuta - Diseño y Desarrollo Web en Formentera",
+        alt: "Robert Nicuta - Diseño Web y Desarrollo de Aplicaciones",
       },
     ],
     locale: "es_ES",
@@ -39,13 +40,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Robert Nicuta | Diseño y Desarrollo Web en Formentera",
+    title: "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones",
     description:
-      "Desarrollador web especializado en Next.js, React, PHP y más.",
+      "Especialista en diseño web y desarrollo de aplicaciones modernas con tecnologías como Next.js, React y PHP.",
     images: ["https://robertnicuta.vercel.app/miportafolio.jpg"],
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Robert Nicuta",
-              jobTitle: "Diseñador y Desarrollador Web",
+              jobTitle: "Diseñador Web y Programador de Aplicaciones",
               url: "https://robertnicuta.vercel.app/",
               sameAs: [
                 "https://github.com/robertnic9",
@@ -79,16 +79,18 @@ export default function RootLayout({ children }) {
                 url: "https://robertnicuta.vercel.app/",
               },
               knowsAbout: [
+                "Diseño web",
+                "Desarrollo de aplicaciones",
                 "Next.js",
                 "React",
                 "PHP",
-                "Tailwind",
                 "JavaScript",
-                "UX/UI",
+                "Tailwind",
                 "SEO",
+                "UX/UI",
                 "CSS",
-                "Bootstrap",
-                "Python",
+                "HTML",
+                "E-commerce",
               ],
               alumniOf: {
                 "@type": "EducationalOrganization",
@@ -101,14 +103,15 @@ export default function RootLayout({ children }) {
                   {
                     "@type": "CreativeWork",
                     name: "Mi Portfolio",
-                    description: "Web creada con Next.js y Tailwind.",
+                    description:
+                      "Sitio web profesional diseñado con Next.js y Tailwind, destacando mis proyectos de desarrollo y diseño.",
                     url: "https://robertnicuta.vercel.app/",
                   },
                   {
                     "@type": "SoftwareApplication",
-                    name: "E-LearningPlataform",
+                    name: "E-Learning Plataform",
                     description:
-                      "Plataforma de aprendizaje online con cursos y tests.",
+                      "Plataforma de aprendizaje online con cursos interactivos y tests de evaluación.",
                     applicationCategory: "Education",
                     operatingSystem: "Web",
                     url: "https://robertnicuta.vercel.app/proyectos/e-learning",
@@ -116,7 +119,8 @@ export default function RootLayout({ children }) {
                   {
                     "@type": "SoftwareApplication",
                     name: "Material Escolar Web",
-                    description: "Tienda de material escolar con ChatBot IA.",
+                    description:
+                      "Tienda online de material escolar con integración de chatbot IA para asistencia personalizada.",
                     applicationCategory: "E-commerce",
                     operatingSystem: "Web",
                     url: "https://robertnicuta.vercel.app/proyectos/material-escolar",
