@@ -12,7 +12,7 @@ export default function Hero() {
       </p>
       <h1
         className="uppercase text-3xl md:text-8xl mb-4 text-center
-      bg-[linear-gradient(110deg,#0a0f2c,25%,#fed7aa,75%,#bfc9db,50%,#0a0f2c)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent"
+      bg-[linear-gradient(110deg,#1a1a1a,40%,#fed7aa,60%,#1a1a1a)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent"
       >
         Full-Stack Developer
       </h1>

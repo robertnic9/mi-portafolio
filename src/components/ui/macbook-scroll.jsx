@@ -65,8 +65,8 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
           setIsMobile(false);
 
         } else if (isMobileView) {
-          console.log("Aplicando altura para móvil: 125vh");
-          setCalculatedHeight("125vh");
+          console.log("Aplicando altura para móvil: 130vh");
+          setCalculatedHeight("130vh");
         } else {
           console.log("Aplicando altura normal: 150vh");
           setCalculatedHeight("150vh");
@@ -230,7 +230,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src="/" className="" alt="Diseñador web en Formentera" />
+                  <img src="/robertnicuta.png" alt="Robert Nicuta" />
                 </div>
                 <div className="flip-card-back" loading="lazy">
                   <BreakoutGame />
