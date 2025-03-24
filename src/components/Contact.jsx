@@ -1,5 +1,5 @@
 import Pagetitle from "./PageTitle";
-import "@/styles/Contact.css"; // Archivo CSS para estilos adicionales
+import "@/styles/Contact.css"; 
 
 
 export default function Contact() {

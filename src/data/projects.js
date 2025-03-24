@@ -1,17 +1,35 @@
 const projects = [
   {
+    title: "La Vie Éternelle",
+    description:
+      "Diseño y desarrollo de una marca de relojes de lujo con una web de 5 páginas. Un proyecto de 40 horas donde apliqué diseño elegante, UX/UI refinado y desarrollo web de alta calidad.",
+    image: "/lavie.png",
+    liveLink: "https://lavieeternelle.vercel.app/",
+    githubLink: "https://github.com/robertnic9/mi-portafolio",
+    technologies: ["Next.js", "Tailwind", "JavaScript"],
+  },
+  {
     title: "Mi Portafolio",
     description:
-      "La página en la que estás ahora mismo. Web creada usando Next.js y Tailwind.",
+      "Mi primer proyecto con Next.js y Tailwind, aprendidos de forma autodidacta. Aproveché su rápido renderizado y optimización SEO para crear una web moderna y eficiente.",
     image: "/miportafolio.png",
     liveLink: "/",
     githubLink: "https://github.com/robertnic9/mi-portafolio",
     technologies: ["Next.js", "Tailwind", "JavaScript"],
   },
   {
+    title: "E-Learning Platform",
+    description:
+      "Plataforma de e-learning con autenticación, inscripciones, módulos interactivos y evaluaciones. Desarrollo full-stack combinando React con PHP para una experiencia dinámica.",
+    image: "/elearning.png",
+    liveLink: "https://github.com/robertnic9/proyectofinal",
+    githubLink: "https://github.com/robertnic9/proyectofinal",
+    technologies: ["React", "PHP", "JavaScript", "SASS"],
+  },
+  {
     title: "Juego Siete y Medio",
     description:
-      "Juego del Siete y Medio en el que se practica la lógica, las llamadas asíncronas y las peticiones al servidor.",
+      "Juego de cartas web con lógica en PHP y peticiones fetch desde JavaScript para una experiencia dinámica e interactiva.",
     image: "/setymig.png",
     liveLink: "http://vps-dadb9edf.vps.ovh.net/cartas/index.html",
     githubLink: "https://github.com/robertnic9/set-i-mig",
@@ -20,24 +38,16 @@ const projects = [
   {
     title: "Material Escolar Web",
     description:
-      "Una tienda de material escolar con un chatbot de IA que se conecta a la API de Gemini 1.5 para responder al usuario. Además, cuenta con funcionalidad del lado cliente.",
+      "E-commerce de material escolar con chatbot de IA integrado mediante la API de Gemini 1.5. Interfaz intuitiva y experiencia fluida en cliente y responsive.",
     image: "/materialescolar.png",
     liveLink: "http://vps-dadb9edf.vps.ovh.net/WEB_MaterialEscolar/index.html",
     githubLink: "https://github.com/robertnic9/material-escolar",
     technologies: ["JavaScript", "HTML", "CSS"],
   },
   {
-    title: "E-Learning Platform",
-    description:
-      "Una aplicación web de e-learning que permite a los estudiantes inscribirse en cursos, completar módulos y realizar evaluaciones. Incluye autenticación de usuarios y seguimiento del progreso.",
-    image: "/elearning.png",
-    liveLink: "/",
-    githubLink: "/",
-    technologies: ["React", "PHP", "JavaScript", "SASS"],
-  },
-  {
     title: "The Outdoor Adventure",
-    description: "Una web creada usando el framework de CSS Bootstrap.",
+    description:
+      "Landing page creada con Bootstrap, optimizada para una experiencia responsive y diseño atractivo.",
     image: "/outdoor.png",
     liveLink: "http://vps-dadb9edf.vps.ovh.net/adventure/index.html",
     githubLink: "https://github.com/robertnic9/adventure-web",
@@ -46,11 +56,20 @@ const projects = [
   {
     title: "Rural Hotel Luxury",
     description:
-      "Web creada usando SASS, lo que facilita la estructura de CSS y mejora su legibilidad.",
+      "Web para hotel rural, creada con SASS para un código CSS más estructurado y mantenible.",
     image: "/RuralHotelLuxury.png",
     liveLink: "http://vps-dadb9edf.vps.ovh.net/ruralluxury/index.html",
     githubLink: "https://github.com/robertnic9/rural-luxury",
     technologies: ["HTML", "SASS", "JavaScript"],
+  },
+  {
+    title: "Generador de Colores",
+    description:
+      "Herramienta para diseñadores que genera 10 tonalidades de un color, desde claro hasta oscuro, facilitando la creación de paletas cromáticas.",
+    image: "/colores.png",
+    liveLink: "",
+    githubLink: "",
+    technologies: ["React", "CSS", "JavaScript"],
   },
 ];
 

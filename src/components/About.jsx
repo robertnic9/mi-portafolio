@@ -1,4 +1,4 @@
-"use client";
+
 import Pagetitle from "./PageTitle";
 import { MacbookScrollDemo } from "./macbook";
 import "@/styles/HrAnimated.css";

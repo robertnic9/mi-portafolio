@@ -17,19 +17,30 @@ const greetings = [
 
 export default function HelloAnimation({ onAnimationEnd }) {
   const [index, setIndex] = useState(0);
-  const [showAnimation, setShowAnimation] = useState(true);
+  const [showAnimation, setShowAnimation] = useState(false);
 
   useEffect(() => {
-    if (index < greetings.length - 1) {
+    const hasSeenAnimation = sessionStorage.getItem("hasSeenAnimation");
+
+    if (!hasSeenAnimation) {
+      setShowAnimation(true);
+      sessionStorage.setItem("hasSeenAnimation", "true");
+    } else {
+      onAnimationEnd(); // Si ya la vio en esta sesión, saltamos la animación
+    }
+  }, []);
+
+  useEffect(() => {
+    if (showAnimation && index < greetings.length - 1) {
       const timeout = setTimeout(() => setIndex(index + 1), 430);
       return () => clearTimeout(timeout);
-    } else {
+    } else if (showAnimation) {
       setTimeout(() => {
         setShowAnimation(false);
         onAnimationEnd();
       }, 1000);
     }
-  }, [index]);
+  }, [index, showAnimation]);
 
   return (
     <AnimatePresence>
@@ -41,7 +52,7 @@ export default function HelloAnimation({ onAnimationEnd }) {
         >
           <motion.h1
             key={greetings[index]}
-            className="font-bold "
+            className="font-bold"
             initial={{ opacity: 0, y: 5 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -5 }}
