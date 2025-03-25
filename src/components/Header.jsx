@@ -7,8 +7,8 @@ import Link from "next/link";
 const navItems = [
   { name: "Home", href: "/" },
   { name: "Projects", href: "/projects" },
-  { name: "About", href: "/#about" },
-  { name: "Contact", href: "/#contact" },
+  { name: "About", href: "/aboutme" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Header() {
