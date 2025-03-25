@@ -8,10 +8,10 @@ export default function ProjectPage() {
     <main>
       <GridBackground />
       <Header />
-      <div className="translate-y-[-50%]">
+      <div className="md:translate-y-[-50%]">
         <Contact />
       </div>
-      <div className="translate-y-[-75%]">
+      <div className="md:translate-y-[-75%]">
         <Footer />
       </div>
     </main>

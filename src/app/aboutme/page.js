@@ -8,10 +8,10 @@ export default function ProjectPage() {
     <main>
       <GridBackground />
       <Header />
-      <div className="pt-24">
+      <div className="mt-48 md:pt-24">
         <AboutSection />
       </div>
-      <div className="pt-[26rem]">
+      <div className="min-h-screen sm:min-h-fit sm:p-[40vh]">
         <Footer />
       </div>
     </main>
