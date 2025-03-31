@@ -12,24 +12,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Definiciones principales para reutilizar
+const siteName = "Robert Nicuta";
+const siteTitle =
+  "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones en Formentera";
+const siteDescription =
+  "Soy un desarrollador web en Formentera de 19 años. Mi objetivo es hacer webs modernas que traigan clientes, que estén en el primer puesto del buscador de Google, que hagan dinero y no tengan un diseño cutre y feo de WordPress.";
+const siteUrl = "https://robertnicuta.vercel.app/";
+const siteImage = "https://robertnicuta.vercel.app/miportafolio.png";
+
 export const metadata = {
-  title:
-    "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones en Formentera",
-  description:
-    "Experto en diseño web y desarrollo de aplicaciones en Formentera. Construyo páginas web atractivas y optimizadas, y creo aplicaciones con tecnologías modernas como Next.js, React y PHP.",
+  title: siteTitle,
+  description: siteDescription,
   keywords:
-    "diseño web Formentera, desarrollo de aplicaciones, programador web, UX/UI, Next.js, React, PHP, JavaScript, Tailwind, SEO, CSS, HTML, branding digital, web responsive",
+    "diseño web Formentera, desarrollo aplicaciones, Next.js, React, PHP, JavaScript, Tailwind, SEO, UX/UI, freelance, programador web",
   authors: [{ name: "Robert Nicuta" }],
   robots: "index, follow",
+  alternates: {
+    canonical: siteUrl,
+  },
   openGraph: {
-    title: "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones",
-    description:
-      "Desarrollador y diseñador web en Formentera, especializado en páginas web atractivas y desarrollo de aplicaciones modernas.",
-    url: "https://robertnicuta.vercel.app/",
-    siteName: "Robert Nicuta",
+    title: siteTitle,
+    description: siteDescription,
+    url: siteUrl,
+    siteName: siteName,
     images: [
       {
-        url: "https://robertnicuta.vercel.app/miportafolio.png",
+        url: siteImage,
         width: 1200,
         height: 630,
         alt: "Robert Nicuta - Diseño Web y Desarrollo de Aplicaciones",
@@ -40,20 +49,24 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones",
-    description:
-      "Especialista en diseño web y desarrollo de aplicaciones modernas con tecnologías como Next.js, React y PHP.",
-    images: ["https://robertnicuta.vercel.app/miportafolio.jpg"],
+    title: siteTitle,
+    description: siteDescription,
+    images: [siteImage],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <meta
-        name="google-site-verification"
-        content="ZeFsn69Wf4aa2nhDRTmONOf3d47sGxRxOaQ9ItV1G6Y"
-      />
+      <head>
+        <meta
+          name="google-site-verification"
+          content="ZeFsn69Wf4aa2nhDRTmONOf3d47sGxRxOaQ9ItV1G6Y"
+        />
+        {/* Metadatos adicionales para móviles */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -66,8 +79,10 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Robert Nicuta",
-              jobTitle: "Diseñador Web y Programador de Aplicaciones",
-              url: "https://robertnicuta.vercel.app/",
+              jobTitle: "Diseñador Web y Desarrollador de Aplicaciones",
+              url: siteUrl,
+              image: siteImage,
+              description: siteDescription,
               sameAs: [
                 "https://github.com/robertnic9",
                 "https://www.linkedin.com/in/robert-nicuta/",
@@ -76,7 +91,7 @@ export default function RootLayout({ children }) {
               worksFor: {
                 "@type": "Organization",
                 name: "Freelance",
-                url: "https://robertnicuta.vercel.app/",
+                url: siteUrl,
               },
               knowsAbout: [
                 "Diseño web",
@@ -88,45 +103,7 @@ export default function RootLayout({ children }) {
                 "Tailwind",
                 "SEO",
                 "UX/UI",
-                "CSS",
-                "HTML",
-                "E-commerce",
               ],
-              alumniOf: {
-                "@type": "EducationalOrganization",
-                name: "IES Santa Maria D'Eivissa",
-              },
-              hasPart: {
-                "@type": "ItemList",
-                name: "Proyectos de Robert Nicuta",
-                itemListElement: [
-                  {
-                    "@type": "CreativeWork",
-                    name: "Mi Portfolio",
-                    description:
-                      "Sitio web profesional diseñado con Next.js y Tailwind, destacando mis proyectos de desarrollo y diseño.",
-                    url: "https://robertnicuta.vercel.app/",
-                  },
-                  {
-                    "@type": "SoftwareApplication",
-                    name: "E-Learning Plataform",
-                    description:
-                      "Plataforma de aprendizaje online con cursos interactivos y tests de evaluación.",
-                    applicationCategory: "Education",
-                    operatingSystem: "Web",
-                    url: "https://robertnicuta.vercel.app/proyectos/e-learning",
-                  },
-                  {
-                    "@type": "SoftwareApplication",
-                    name: "Material Escolar Web",
-                    description:
-                      "Tienda online de material escolar con integración de chatbot IA para asistencia personalizada.",
-                    applicationCategory: "E-commerce",
-                    operatingSystem: "Web",
-                    url: "https://robertnicuta.vercel.app/proyectos/material-escolar",
-                  },
-                ],
-              },
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Formentera",
