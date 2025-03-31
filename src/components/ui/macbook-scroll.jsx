@@ -196,35 +196,49 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 Robert Nicuta
               </p>
               <h2 className=" text-xs md:text-sm mb-4">
-                Tengo 19 años, soy un diseñador web y también desarrollo
-                aplicaciones web en Formentera.
+                Tengo 19 años y una de las cosas que me gusta es{" "}
+                <span className="font-semibold">SOLUCIONAR PROBLEMAS.</span>
               </h2>
 
-              <p className="text-xs md:text-sm font-bold bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent mb-4">
-                Mi personalidad se basa en tres cosas:
+              <p className="text-xs md:text-sm mb-3">
+                Por eso he estudiado{" "}
+                <span className="font-bold text-xs">PROGRAMACIÓN.</span>
+              </p>
+
+              <p className="text-xs md:text-sm mb-2">
+                Actualmente trabajando con dos empresas,{" "}
+                <a
+                  className="font-medium underline"
+                  href="https://lovebici.com/"
+                >
+                  Love Bici
+                </a>{" "}
+                y{" "}
+                <a
+                  className="font-medium underline"
+                  href="https://loveformentera.es/"
+                >
+                  Love Formentera.
+                </a>
+              </p>
+
+              <h3 className="font-bold text-lg bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent mb-2">
+                QUE HAGO?
+              </h3>
+              <p className="text-xs md:text-sm mb-2">
+                Estoy mejorando las{" "}
+                <span className="font-medium">
+                  webs,la presencia online y el SEO LOCAL
+                </span>
+                , en Formentera.
               </p>
 
               <p className="text-xs md:text-sm">
-                Soy {" "}
-                <span className="font-bold text-xs mb-2 bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
-                  curioso
-                </span>
-                , siempre me pregunto cómo funcionan las cosas, y gracias a eso
-                aprendo mucho.
-              </p>
-              <p className="text-xs md:text-sm mb-2">
-                Aprender cosas nuevas y usar mi{" "}
-                <span className="font-bold text-xs bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
-                  creatividad
-                </span>{" "}
-                me permite crear cosas únicas y diferentes.
-              </p>
-              <p className="text-xs md:text-sm">
-                Sumando todo esto con mi{" "}
-                <span className="font-bold text-xs bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
-                  determinación
-                </span>
-                , se me da muy bien solucionar problemas.
+                Tambien estoy <span className="font-medium">trabajando</span> en
+                Ibiza, en el
+                <span className="font-medium"> Grupo Tisa</span>, realizando mis
+                <span className="font-medium"> prácticas</span> de 8:30 a 17:00
+                como desarrollador de aplicaciones web.
               </p>
             </div>
             <div className="flip-card">

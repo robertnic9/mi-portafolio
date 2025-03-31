@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const navItems = [
   { name: "Home", href: "/" },
-  { name: "Projects", href: "/projects" },
+  { name: "Projects", href: "/formentera-diseno-web" },
   { name: "About", href: "/aboutme" },
   { name: "Contact", href: "/contact" },
 ];

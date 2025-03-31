@@ -40,3 +40,19 @@
         all: unset;
     }
 }
+/*Modifico el Scroll Bar */
+html::-webkit-scrollbar {
+  width: 12px; 
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8); 
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #FED7AA; 
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  transition: all 1s ease;
+}

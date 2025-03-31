@@ -13,13 +13,9 @@ export default function Hero() {
       <h1 className="uppercase text-3xl md:text-8xl mb-4 text-center text-[#fed7aa]">
         Full-Stack Developer
       </h1>
-      <button className="btn-outline mt-30 hover:cursor-not-allowed">
-        <a
-          href="/"
-          //download
-          className="no-underline text-#fed7aa uppercase"
-        >
-          Resume
+      <button className="btn-outline mt-30 ">
+        <a href="/contact" className="no-underline text-#fed7aa uppercase">
+          contáctame
         </a>
       </button>
       <div className="animated-mouse"></div>
