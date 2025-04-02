@@ -244,7 +244,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src="/robertnicuta.png" alt="Robert Nicuta" />
+                  <img src="/robertnicuta.jpeg" alt="Robert Nicuta" />
                 </div>
                 <div className="flip-card-back" loading="lazy">
                   <BreakoutGame />
