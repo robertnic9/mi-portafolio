@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://robertnicuta.vercel.app/sitemap.xml
