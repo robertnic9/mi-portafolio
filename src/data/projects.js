@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "Love Formentera  ",
+    description:
+      "Para obtener el primer puesto en Google realicé un estudio de palabras clave con Google Keyword Research y apliqué una arquitectura SEO transacional. Todo esto con un diseño web elegante que da autoridad.",
+    image: "/loveformentera.png",
+    liveLink: "/contact",
+    githubLink: "/contact",
+    technologies: ["WordPress", "ElementorPro", "RankMathSEO"],
+  },
+  {
     title: "La Vie Éternelle",
     description:
       "Diseño y desarrollo de una marca de relojes de lujo con una web de 5 páginas. Un proyecto de 40 horas donde apliqué diseño elegante, UX/UI refinado y desarrollo web de alta calidad.",
