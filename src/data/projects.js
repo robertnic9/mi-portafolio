@@ -2,9 +2,10 @@ const projects = [
   {
     title: "Love Formentera  ",
     description:
-      "Para obtener el primer puesto en Google realicé un estudio de palabras clave con Google Keyword Research y apliqué una arquitectura SEO transacional. Todo esto con un diseño web elegante que da autoridad.",
+      "Para obtener el primer puesto en Google realicé un estudio de palabras clave con Google Analytics y apliqué una arquitectura SEO transacional. Todo esto con un diseño web elegante que da autoridad.",
     image: "/loveformentera.png",
-    liveLink: "/contact",
+    liveLink:
+      "https://loveformentera.es/alquiler-vacacional-formentera/marina-house/",
     githubLink: "/contact",
     technologies: ["WordPress", "ElementorPro", "RankMathSEO"],
   },
