@@ -15,10 +15,18 @@ export default function GridBackground() {
   }, []);
 
   return (
-    <div className="grid-background">
+    <div className="grid-background" style={{ cursor: "none" }}>
       <div className="mask-overlay"></div>
       <div
         className="glow-effect"
+        style={{
+          left: `${mousePosition.x}px`,
+          top: `${mousePosition.y}px`,
+        }}
+      ></div>
+      {/* Círculo blanco personalizado como cursor */}
+      <div
+        className="custom-cursor"
         style={{
           left: `${mousePosition.x}px`,
           top: `${mousePosition.y}px`,

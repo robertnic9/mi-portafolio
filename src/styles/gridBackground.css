@@ -1,23 +1,28 @@
 .grid-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(25, 25, 25);
-    background-image:
-        linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
-    background-size: 20px 20px;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(25, 25, 25);
+  background-image:
+      linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 20px 20px;
+  z-index: -1;
 }
-
+body{
+  cursor: none;
+}
+p,h1,h2,h3,h4,h5,span :hover{
+  cursor: text;
+}
 /* Nueva capa de luz que sigue el mouse */
 .glow-effect {
     position: absolute;
     width: 150px;
     height: 150px;
-    background: radial-gradient(circle, rgba(66, 66, 66, 0.3) 25%, rgba(0, 0, 0, 0) 60%);
+    background: radial-gradient(circle, rgba(66, 66, 66, 0.4) 25%, rgba(0, 0, 0, 0) 60%);
     border-radius: 100%;
     pointer-events: none; /* Para que no afecte la interacción */
     transform: translate(-50%, -50%); /* Centrar la luz */
@@ -55,4 +60,16 @@ html::-webkit-scrollbar-thumb {
   border: 1px solid transparent;
   background-clip: padding-box;
   transition: all 1s ease;
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
 }
