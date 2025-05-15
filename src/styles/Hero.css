@@ -19,7 +19,15 @@
 .subtitle{
   color: #fed7aa;
 }
+.btn-outline.sec{
+  border-color:  #000000;
+  color: #000000;
+}
 
+.btn-outline.sec:hover{
+  background-color: black;
+  color: white;
+}
 @keyframes jumpIn {
   0% {
     opacity: 0;

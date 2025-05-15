@@ -1,6 +1,16 @@
 const projects = [
   {
-    title: "Love Formentera  ",
+    title: "Ibiza Circular",
+    description:
+      "Programando el diseño web a partir de vistas de ASP.NET Core y dandole estilo con Bootstrap + CSS para ajustarse al manual de marca y darle el mejor estilo possible ajustandose a la normativa del Consell de Ibiza.",
+    image: "/ibizacircular.png",
+    liveLink:
+      "",
+    githubLink: "",
+    technologies: ["ASP.NET Core", "Bootstrap", "C#"],
+  },
+  {
+    title: "Love Formentera",
     description:
       "Para obtener el primer puesto en Google realicé un estudio de palabras clave con Google Analytics y apliqué una arquitectura SEO transacional. Todo esto con un diseño web elegante que da autoridad.",
     image: "/loveformentera.png",

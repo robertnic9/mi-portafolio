@@ -5,6 +5,7 @@ const SkillData2 = [
   { name: "SASS", src: "/logosPr/sass.webp" },
   { name: "SQL", src: "/logosPr/sql.webp" },
   { name: "VS Code", src: "/logosPr/vsCode.webp" },
+  { name: "C#", src: "/logosPr/cshark.png" },
 ];
 
 

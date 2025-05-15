@@ -42,7 +42,10 @@ p,h1,h2,h3,h4,h5,span :hover{
 
 @media (max-width: 600px) {
     .glow-effect {
-        all: unset;
+      all: unset;
+    }
+    .custom-cursor{
+      all: unset;
     }
 }
 /*Modifico el Scroll Bar */
@@ -64,8 +67,8 @@ html::-webkit-scrollbar-thumb {
 
 .custom-cursor {
   position: fixed;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 50%;

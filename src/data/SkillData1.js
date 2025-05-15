@@ -5,6 +5,7 @@ const SkillData1 = [
   { name: "HTML", src: "/logosPr/html.webp" },
   { name: "JavaScript", src: "/logosPr/js.webp" },
   { name: "Next.js", src: "/logosPr/nextjs.webp" },
+  { name: "ASP.NET Core", src: "/logosPr/dotnet.webp" },
 ];
 
 export default SkillData1;

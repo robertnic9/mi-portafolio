@@ -25,7 +25,6 @@ import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import "@/styles/activities.css";
-import BreakoutGame from "../BreakOut";
 
 export const MacbookScroll = ({ src, showGradient, title, badge }) => {
   const ref = useRef(null);
@@ -246,8 +245,12 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 <div className="flip-card-front">
                   <img src="/robertnicuta.jpeg" alt="Robert Nicuta" />
                 </div>
-                <div className="flip-card-back" loading="lazy">
-                  <BreakoutGame />
+                <div className="flip-card-back">
+                  <button 
+                  className="btn-outline sec mt-30 cursor-not-allowed">
+                    Descargar CV
+                  </button>
+                  {/*Aquí se puede sistuir por el BreakOut game */}
                 </div>
               </div>
             </div>
