@@ -194,50 +194,37 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
               <p className="mb-4 uppercase font-bold text-xl bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
                 Robert Nicuta
               </p>
-              <h2 className=" text-xs md:text-sm mb-4">
-                Tengo 19 años y una de las cosas que me gusta es{" "}
+              <p className=" text-xs md:text-sm my-1">
+                Tengo 19 años, vivo en Formentera y una de las cosas que se me
+                da bien es{" "}
                 <span className="font-semibold">SOLUCIONAR PROBLEMAS.</span>
-              </h2>
-
-              <p className="text-xs md:text-sm mb-3">
+              </p>
+              <p className="text-xs md:text-sm ">
                 Por eso he estudiado{" "}
                 <span className="font-bold text-xs">PROGRAMACIÓN.</span>
               </p>
-
-              <p className="text-xs md:text-sm mb-2">
-                Actualmente trabajando con dos empresas,{" "}
-                <a
-                  className="font-medium underline"
-                  href="https://lovebici.com/"
-                >
-                  Love Bici
-                </a>{" "}
-                y{" "}
-                <a
-                  className="font-medium underline"
-                  href="https://loveformentera.es/"
-                >
-                  Love Formentera.
-                </a>
-              </p>
-
-              <h3 className="font-bold text-lg bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent mb-2">
+              <h3 className="font-bold text-lg bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent my-1">
                 QUE HAGO?
               </h3>
               <p className="text-xs md:text-sm mb-2">
-                Estoy mejorando las{" "}
+                Como desarollador full stack, puedo programar backend y
+                frontend, pero unas de mis ventajas es el diseño web, mi{" "}
                 <span className="font-medium">
-                  webs,la presencia online y el SEO LOCAL
+                  estilo son webs elegantes, finas y modernas.
                 </span>
-                , en Formentera.
               </p>
-
-              <p className="text-xs md:text-sm">
-                Tambien estoy <span className="font-medium">trabajando</span> en
-                Ibiza, en el
-                <span className="font-medium"> Grupo Tisa</span>, realizando mis
-                <span className="font-medium"> prácticas</span> de 8:30 a 17:00
-                como desarrollador de aplicaciones web.
+              <p className="text-xs md:text-sm mb-2">
+                Tambien de extra hago marketing como lead magnets, funnel
+                ventas, SEO y SEM en Google, Meta y Tiktok. Este trabajo lo
+                estoy realizando para{" "}
+                <a
+                  className="font-medium underline"
+                  href="https://loveformentera.es/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  Love Formentera
+                </a>
               </p>
             </div>
             <div className="flip-card">
@@ -246,8 +233,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                   <img src="/robertnicuta.jpeg" alt="Robert Nicuta" />
                 </div>
                 <div className="flip-card-back">
-                  <button 
-                  className="btn-outline sec mt-30 cursor-not-allowed">
+                  <button className="btn-outline sec mt-30 cursor-not-allowed">
                     Descargar CV
                   </button>
                   {/*Aquí se puede sistuir por el BreakOut game */}

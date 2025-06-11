@@ -2,17 +2,17 @@ const projects = [
   {
     title: "Ibiza Circular",
     description:
-      "Programando el diseño web a partir de vistas de ASP.NET Core y dandole estilo con Bootstrap + CSS para ajustarse al manual de marca y darle el mejor estilo possible ajustandose a la normativa del Consell de Ibiza.",
+      "Fui quien diseñó y programó la web. Está hecha a partir de vistas en ASP.NET Core y con estilos usando Bootstrap + CSS. Lo más complicado fue entender la normativa del Consell de Ibiza y darle el mejor estilo posible.",
     image: "/ibizacircular.png",
-    liveLink:
-      "",
+    liveLink: "https://ibizacircular.es/",
     githubLink: "",
+    pageinfo: "",
     technologies: ["ASP.NET Core", "Bootstrap", "C#"],
   },
   {
     title: "Love Formentera",
     description:
-      "Para obtener el primer puesto en Google realicé un estudio de palabras clave con Google Analytics y apliqué una arquitectura SEO transacional. Todo esto con un diseño web elegante que da autoridad.",
+      "Realicé un estudio de palabras clave con Google Analytics y apliqué una arquitectura SEO transaccional. Creé un diseño web elegante, hice las fotos de la casa y estoy gestionando las redes sociales.",
     image: "/loveformentera.png",
     liveLink:
       "https://loveformentera.es/alquiler-vacacional-formentera/marina-house/",
@@ -20,13 +20,40 @@ const projects = [
     technologies: ["WordPress", "ElementorPro", "RankMathSEO"],
   },
   {
+    title: "Aplicación Ibiza Circular",
+    description:
+      "Es la web que el Consell utiliza para gestionar Ibiza Circular. Mi trabajo fue hacer todo el frontend, mostrar la información usando gráficas e implementar paginación en los controladores.",
+    image: "/Dashboard.png",
+    liveLink: "",
+    githubLink: "/contact",
+    technologies: ["ASP.NET Core", "Bootstrap", "C#"],
+  },
+  {
+    title: "Aplicación Embargos",
+    description:
+      "Tuve que hacer un cambio radical en pocas horas. Me presentaron el proyecto por la tarde y a la mañana siguiente se debía presentar. En una hora y media entregué una web terminada, limpia y moderna.",
+    image: "/GeneracionBlack.png",
+    liveLink: "",
+    githubLink: "/contact",
+    technologies: ["ASP.NET Core", "Bootstrap", "C#"],
+  },
+  {
     title: "La Vie Éternelle",
     description:
-      "Diseño y desarrollo de una marca de relojes de lujo con una web de 5 páginas. Un proyecto de 40 horas donde apliqué diseño elegante, UX/UI refinado y desarrollo web de alta calidad.",
+      "Diseño y desarrollo de una marca de relojes de lujo con una web de 5 páginas. Un proyecto de 40 horas donde apliqué un diseño elegante, UX/UI refinado y desarrollo web de alta calidad.",
     image: "/lavie.jpeg",
     liveLink: "https://lavieeternelle.vercel.app/",
     githubLink: "https://github.com/robertnic9/mi-portafolio",
     technologies: ["Next.js", "Tailwind", "JavaScript"],
+  },
+  {
+    title: "App Cartera Clientes",
+    description:
+      "Para una gestoría tuve que programar toda la aplicación web, tanto el backend como el frontend. No pude terminarla del todo y me quedó la funcionalidad de subir datos desde Excel, ya que teníamos prioridad en Ibiza Circular.",
+    image: "/Gestoria.png",
+    liveLink: "",
+    githubLink: "/contact",
+    technologies: ["ASP.NET", "Bootstrap", "C#"],
   },
   {
     title: "Mi Portafolio",
@@ -58,18 +85,18 @@ const projects = [
   {
     title: "Material Escolar Web",
     description:
-      "E-commerce de material escolar con chatbot de IA integrado mediante la API de Gemini 1.5. Interfaz intuitiva y experiencia fluida en cliente y responsive.",
+      "E-commerce de material escolar con chatbot de IA integrado mediante la API de Gemini 1.5. Interfaz intuitiva y experiencia fluida para el cliente, totalmente responsive.",
     image: "/materialescolar.jpeg",
-    liveLink: "http://vps-dadb9edf.vps.ovh.net/WEB_MaterialEscolar/index.html",
+    liveLink: "",
     githubLink: "https://github.com/robertnic9/material-escolar",
     technologies: ["JavaScript", "HTML", "CSS"],
   },
   {
     title: "The Outdoor Adventure",
     description:
-      "Landing page creada con Bootstrap, optimizada para una experiencia responsive y diseño atractivo.",
+      "Landing page creada con Bootstrap, optimizada para una experiencia responsive y un diseño atractivo.",
     image: "/outdoor.jpeg",
-    liveLink: "http://vps-dadb9edf.vps.ovh.net/adventure/index.html",
+    liveLink: "",
     githubLink: "https://github.com/robertnic9/adventure-web",
     technologies: ["HTML", "Bootstrap", "CSS"],
   },
@@ -78,7 +105,7 @@ const projects = [
     description:
       "Web para hotel rural, creada con SASS para un código CSS más estructurado y mantenible.",
     image: "/RuralHotelLuxury.jpeg",
-    liveLink: "http://vps-dadb9edf.vps.ovh.net/ruralluxury/index.html",
+    liveLink: "",
     githubLink: "https://github.com/robertnic9/rural-luxury",
     technologies: ["HTML", "SASS", "JavaScript"],
   },
