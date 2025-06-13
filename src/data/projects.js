@@ -20,7 +20,7 @@ const projects = [
     technologies: ["WordPress", "ElementorPro", "RankMathSEO"],
   },
   {
-    title: "Aplicación Ibiza Circular",
+    title: "APP Ibiza Circular",
     description:
       "Es la web que el Consell utiliza para gestionar Ibiza Circular. Mi trabajo fue hacer todo el frontend, mostrar la información usando gráficas e implementar paginación en los controladores.",
     image: "/Dashboard.png",

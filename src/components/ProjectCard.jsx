@@ -18,7 +18,9 @@ export default function ProjectCard({project}){
             {project.title}
           </p>
           <div className="w-full h-[1px] bg-white my-1"></div>
-          <p className="text-zinc-300 mt-1 h-full ">{project.description}</p>
+          <p className="text-zinc-300 py-1 flex-1 line-clamp-5 leading-relaxed ">
+            {project.description}
+          </p>
           <ul className="flex items-start justify-left flex-wrap text-left gap-2 text-[#fed7aa]">
             {project?.technologies?.map((tech, techIndex) => (
               <li key={tech} className="w-fit">
@@ -28,25 +30,23 @@ export default function ProjectCard({project}){
             ))}
           </ul>
 
-          <div className="flex flex-col items-start justify-between gap-4 mt-4">
-            <div className="flex items-start justify-end flex-row gap-2">
-              <a
-                className="hover:underline inline-flex items-center justify-center h-12 font-bold text-white bg-red-700 uppercase border border-red-500 rounded-xl p-1 px-4"
-                href={project.liveLink}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live
-              </a>
-              <a
-                className="inline-flex h-12 animate-shimmer items-center justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#fed7aa,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                href={project.githubLink}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-            </div>
+          <div className="flex items-start flex-row gap-4 mt-4">
+            <a
+              className="hover:underline inline-flex items-center justify-center h-12 font-bold text-white bg-red-700 uppercase border border-red-500 rounded-xl p-1 px-4"
+              href={project.liveLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live
+            </a>
+            <a
+              className="inline-flex h-12 animate-shimmer items-center justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#fed7aa,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+              href={project.githubLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           </div>
         </article>
       </li>

@@ -1,24 +1,21 @@
-#contact{
-    margin-top: 30rem;
-}
 .contact-container {
-    background-color: rgba(25, 25, 25, 0.85);
-    border-radius: 10px;
-    color: #fed7aa;  
+  background-color: rgba(25, 25, 25, 0.85);
+  border-radius: 10px;
+  color: #fed7aa;  
 }
 
 .contact-text {
-    margin-top: 0.5rem;
-    font-size: 1.75rem; 
+  margin-top: 0.5rem;
+  font-size: 1.75rem; 
 }
 .contact-text-small {
-    font-size: 1.35rem;
-    
+  font-size: 1.35rem;
+  
 }
 
 .contact-icon {
-    width: 1.5rem; 
-    height: 1.5rem;
+  width: 1.5rem; 
+  height: 1.5rem;
 }
 
 /* Para los iconos de Redes*/

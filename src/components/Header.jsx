@@ -22,7 +22,7 @@ export default function Header() {
         {navItems.map((item, index) => (
           <li
             key={item.name}
-            className="relative px-2 md:px-4 text-center  rounded-full cursor-pointer transition-colors duration-300 text-neutral-300"
+            className="relative px-2 md:px-4 text-center  rounded-full cursor-pointer transition-colors duration-300 text-neutral-400 fw-bold"
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(null)}
           >

@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import GridBackground from "@/components/GridBackground";
+import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +19,7 @@ const siteName = "Robert Nicuta";
 const siteTitle =
   "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones en Formentera";
 const siteDescription =
-  "Soy un desarrollador web en Formentera de 19 años. Mi objetivo es hacer webs modernas que traigan clientes, que estén en el primer puesto del buscador de Google, que hagan dinero y no tengan un diseño cutre y feo de WordPress.";
+  "";
 const siteUrl = "https://robertnicuta.vercel.app/";
 const siteImage = "https://robertnicuta.vercel.app/miportafolio.png";
 
@@ -65,11 +67,12 @@ export default function RootLayout({ children }) {
         />
         {/* Metadatos adicionales para móviles */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#ffffff" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <GridBackground />
+        <Header />
         {children}
         <SpeedInsights />
         <script
