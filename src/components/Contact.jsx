@@ -22,10 +22,10 @@ export default function Contact() {
             </svg>
           </picture>
           <a
-            href="mailto:robertnicuta80@gmail.com"
+            href="mailto:hola@robertnicuta.com"
             className="text-reset no-underline cursor-pointer"
           >
-            robertnicuta80@gmail.com
+            hola@robertnicuta.com
           </a>
         </div>
         <div className="flex items-center contact-text-small mt-3">
@@ -52,7 +52,7 @@ const SocialIcons = () => {
     <ul className="flex items-center mt-5 justify-center p-3 gap-4 flex-grow-1 list-none">
       <li>
         <a
-          href="https://www.instagram.com/robertnicuta_/"
+          href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -207,16 +207,15 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 QUE HAGO?
               </h3>
               <p className="text-xs md:text-sm mb-2">
-                Como desarollador full stack, puedo programar backend y
-                frontend, pero unas de mis ventajas es el diseño web, mi{" "}
+                Puedo programar todo tipo de aplicaciones web, pero unas de mis ventajas es el diseño web, mi{" "}
                 <span className="font-medium">
                   estilo son webs elegantes, finas y modernas.
                 </span>
               </p>
               <p className="text-xs md:text-sm mb-2">
-                Tambien de extra hago marketing como lead magnets, funnel
-                ventas, SEO y SEM en Google, Meta y Tiktok. Este trabajo lo
-                estoy realizando para{" "}
+                Tambien de extra hago branding y marketing como lead magnets, funnel
+                ventas, SEO y SEM en Google, Meta y Tiktok. Estoy trabajando
+                para{" "}
                 <a
                   className="font-medium underline"
                   href="https://loveformentera.es/"
@@ -224,6 +223,24 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                   target="_blank"
                 >
                   Love Formentera
+                </a>
+                ,{" "}
+                <a
+                  className="font-medium underline"
+                  href="https://lovebici.com/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  Love Bici
+                </a>{" "}
+                y{" "}
+                <a
+                  className="font-medium underline"
+                  href="https://lucasre.it/"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  LucasRe.
                 </a>
               </p>
             </div>

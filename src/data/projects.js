@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Ibiza Circular",
     description:
-      "Fui quien diseñó y programó la web. Está hecha a partir de vistas en ASP.NET Core y con estilos usando Bootstrap + CSS. Lo más complicado fue entender la normativa del Consell de Ibiza y darle el mejor estilo posible.",
+      "Diseñé y programé la web desde cero. Me encargué de que tuviera un diseño bonito y fácil de usar, siguiendo las reglas oficiales del Consell de Ibiza.",
     image: "/ibizacircular.png",
     liveLink: "https://ibizacircular.es/",
     githubLink: "",
@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Love Formentera",
     description:
-      "Realicé un estudio de palabras clave con Google Analytics y apliqué una arquitectura SEO transaccional. Creé un diseño web elegante, hice las fotos de la casa y estoy gestionando las redes sociales.",
+      "Hice un estudio para que la gente encuentre la casa en Google y preparé un diseño elegante para la web. También hice las fotos y llevo las redes sociales para promocionarla.",
     image: "/loveformentera.png",
     liveLink:
       "https://loveformentera.es/alquiler-vacacional-formentera/marina-house/",
@@ -22,7 +22,7 @@ const projects = [
   {
     title: "APP Ibiza Circular",
     description:
-      "Es la web que el Consell utiliza para gestionar Ibiza Circular. Mi trabajo fue hacer todo el frontend, mostrar la información usando gráficas e implementar paginación en los controladores.",
+      "Programé la parte visual de la web que usa el Consell para Ibiza Circular, mostrando toda la información en gráficos claros y con listas organizadas para que sea fácil de leer.",
     image: "/Dashboard.png",
     liveLink: "",
     githubLink: "/contact",
@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Aplicación Embargos",
     description:
-      "Tuve que hacer un cambio radical en pocas horas. Me presentaron el proyecto por la tarde y a la mañana siguiente se debía presentar. En una hora y media entregué una web terminada, limpia y moderna.",
+      "Me avisaron por la tarde y por la mañana ya estaba lista: programé una web limpia y moderna en solo hora y media para poder presentarla a tiempo.",
     image: "/GeneracionBlack.png",
     liveLink: "",
     githubLink: "/contact",
@@ -40,7 +40,7 @@ const projects = [
   {
     title: "La Vie Éternelle",
     description:
-      "Diseño y desarrollo de una marca de relojes de lujo con una web de 5 páginas. Un proyecto de 40 horas donde apliqué un diseño elegante, UX/UI refinado y desarrollo web de alta calidad.",
+      "Diseñé la imagen de una marca de relojes de lujo y programé su web con 5 páginas. Le di un estilo elegante y cuidé mucho cada detalle para transmitir calidad.",
     image: "/lavie.jpeg",
     liveLink: "https://lavieeternelle.vercel.app/",
     githubLink: "https://github.com/robertnic9/mi-portafolio",
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "App Cartera Clientes",
     description:
-      "Para una gestoría tuve que programar toda la aplicación web, tanto el backend como el frontend. No pude terminarla del todo y me quedó la funcionalidad de subir datos desde Excel, ya que teníamos prioridad en Ibiza Circular.",
+      "Para una gestoría programé toda la aplicación web para gestionar clientes. Faltó solo una pequeña parte porque había que priorizar otro proyecto más urgente.",
     image: "/Gestoria.png",
     liveLink: "",
     githubLink: "/contact",
@@ -58,7 +58,7 @@ const projects = [
   {
     title: "Mi Portafolio",
     description:
-      "Mi primer proyecto con Next.js y Tailwind, aprendidos de forma autodidacta. Aproveché su rápido renderizado y optimización SEO para crear una web moderna y eficiente.",
+      "Mi primer proyecto moderno con nuevas herramientas que aprendí por mi cuenta. Programé una web rápida y bonita para enseñar lo que sé hacer.",
     image: "/miportafolio.jpeg",
     liveLink: "/",
     githubLink: "https://github.com/robertnic9/mi-portafolio",
@@ -67,7 +67,7 @@ const projects = [
   {
     title: "E-Learning Platform",
     description:
-      "Plataforma de e-learning con autenticación, inscripciones, módulos interactivos y evaluaciones. Desarrollo full-stack combinando React con PHP para una experiencia dinámica.",
+      "Una web donde los alumnos pueden registrarse, hacer cursos y exámenes. La programé completa para que sea dinámica y cómoda para aprender.",
     image: "/elearning.png",
     liveLink: "https://github.com/robertnic9/proyectofinal",
     githubLink: "https://github.com/robertnic9/proyectofinal",
@@ -76,7 +76,7 @@ const projects = [
   {
     title: "Juego Siete y Medio",
     description:
-      "Juego de cartas web con lógica en PHP y peticiones fetch desde JavaScript para una experiencia dinámica e interactiva.",
+      "Un juego de cartas online donde puedes jugar desde el navegador, con una experiencia divertida e interactiva.",
     image: "/setymig.jpeg",
     liveLink: "http://vps-dadb9edf.vps.ovh.net/cartas/index.html",
     githubLink: "https://github.com/robertnic9/set-i-mig",
@@ -85,7 +85,7 @@ const projects = [
   {
     title: "Material Escolar Web",
     description:
-      "E-commerce de material escolar con chatbot de IA integrado mediante la API de Gemini 1.5. Interfaz intuitiva y experiencia fluida para el cliente, totalmente responsive.",
+      "Una tienda online de material escolar con un asistente virtual con inteligencia artificial para ayudar al cliente de forma rápida.",
     image: "/materialescolar.jpeg",
     liveLink: "",
     githubLink: "https://github.com/robertnic9/material-escolar",
@@ -94,7 +94,7 @@ const projects = [
   {
     title: "The Outdoor Adventure",
     description:
-      "Landing page creada con Bootstrap, optimizada para una experiencia responsive y un diseño atractivo.",
+      "Una página llamativa para una aventura al aire libre, pensada para que se vea bien en cualquier dispositivo y sea fácil de navegar.",
     image: "/outdoor.jpeg",
     liveLink: "",
     githubLink: "https://github.com/robertnic9/adventure-web",
@@ -103,7 +103,7 @@ const projects = [
   {
     title: "Rural Hotel Luxury",
     description:
-      "Web para hotel rural, creada con SASS para un código CSS más estructurado y mantenible.",
+      "Programé la web de un hotel rural con un estilo elegante y ordenado para que sea agradable y fácil de mantener a largo plazo.",
     image: "/RuralHotelLuxury.jpeg",
     liveLink: "",
     githubLink: "https://github.com/robertnic9/rural-luxury",
@@ -112,7 +112,7 @@ const projects = [
   {
     title: "Generador de Colores",
     description:
-      "Herramienta para diseñadores que genera 10 tonalidades de un color, desde claro hasta oscuro, facilitando la creación de paletas cromáticas.",
+      "Una herramienta para diseñadores que genera 10 tonos distintos de un mismo color, para crear combinaciones armónicas fácilmente.",
     image: "/colores.jpeg",
     liveLink: "",
     githubLink: "",
