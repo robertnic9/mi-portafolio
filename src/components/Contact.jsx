@@ -22,10 +22,10 @@ export default function Contact() {
             </svg>
           </picture>
           <a
-            href="mailto:hola@robertnicuta.com"
+            href="mailto:contacto@robertnicuta.com"
             className="text-reset no-underline cursor-pointer"
           >
-            contact@robertnicuta.com
+            contacto@robertnicuta.com
           </a>
         </div>
         <div className="flex items-center contact-text-small mt-3">

@@ -191,31 +191,29 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
         <div className="absolute inset-0 bg-white rounded-lg p-1 ">
           <section id="activities">
             <div className="text">
-              <p className="mb-4 uppercase font-bold text-xl bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
+              <p className="mb-2 uppercase font-bold text-xl bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent">
                 Robert Nicuta
               </p>
-              <p className=" text-xs md:text-sm my-1">
-                Tengo 19 años, vivo en Formentera y una de las cosas que se me
-                da bien es{" "}
-                <span className="font-semibold">SOLUCIONAR PROBLEMAS.</span>
-              </p>
-              <p className="text-xs md:text-sm ">
-                Por eso he estudiado{" "}
-                <span className="font-bold text-xs">PROGRAMACIÓN.</span>
+              <p className="text-xs md:text-sm my-1">
+                Tengo 19 años y últimamente me estoy dedicando al marketing y
+                branding en Formentera y estudié{" "}
+                <span className="font-bold text-xs">PROGRAMACIÓN</span>, ya que
+                se me da bien solucionar problemas.
               </p>
               <h3 className="font-bold text-lg bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent my-1">
-                QUE HAGO?
+                ¿QUÉ HAGO?
               </h3>
               <p className="text-xs md:text-sm mb-2">
-                Puedo programar todo tipo de aplicaciones web, pero unas de mis ventajas es el diseño web, mi{" "}
+                Me encargo de solucionar todo tipo de problemas digitales que
+                pueda tener el negocio y proporcionar ideas de cómo darse a
+                conocer y conseguir más clientes,{" "}
                 <span className="font-medium">
-                  estilo son webs elegantes, finas y modernas.
+                  ofreciendo soluciones a medida.
                 </span>
               </p>
               <p className="text-xs md:text-sm mb-2">
-                Tambien de extra hago branding y marketing como lead magnets, funnel
-                ventas, SEO y SEM en Google, Meta y Tiktok. Estoy trabajando
-                para{" "}
+                Me suelo encargar de la web, las redes y marketing de pago en
+                Google, Facebook y Instagram. Estoy trabajando para{" "}
                 <a
                   className="font-medium underline"
                   href="https://loveformentera.es/"
