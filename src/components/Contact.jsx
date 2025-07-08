@@ -25,7 +25,7 @@ export default function Contact() {
             href="mailto:hola@robertnicuta.com"
             className="text-reset no-underline cursor-pointer"
           >
-            hola@robertnicuta.com
+            contact@robertnicuta.com
           </a>
         </div>
         <div className="flex items-center contact-text-small mt-3">

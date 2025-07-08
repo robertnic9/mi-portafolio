@@ -19,7 +19,7 @@ const siteName = "Robert Nicuta";
 const siteTitle =
   "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones en Formentera";
 const siteDescription =
-  "";
+  "Me dedico al desarrollo web y al marketing digital en Formentera, trabajando con marcas locales como la tienda de relojes de lujo LucasRe y la inmobiliaria Love Formentera, así como sus negocios de alquiler de barcos y e-bikes.";
 const siteUrl = "https://robertnicuta.vercel.app/";
 const siteImage = "https://robertnicuta.vercel.app/miportafolio.png";
 
