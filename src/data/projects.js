@@ -5,8 +5,7 @@ const projects = [
       "Diseñé y programé la web desde cero. Me encargué de que tuviera un diseño bonito y fácil de usar, siguiendo las reglas oficiales del Consell de Ibiza.",
     image: "/ibizacircular.png",
     liveLink: "https://ibizacircular.es/",
-    githubLink: "",
-    pageinfo: "",
+    githubLink: "https://youtu.be/PtdvmICcNSs",
     technologies: ["ASP.NET Core", "Bootstrap", "C#"],
   },
   {
@@ -24,7 +23,7 @@ const projects = [
     description:
       "Programé la parte visual de la web que usa el Consell para Ibiza Circular, mostrando toda la información en gráficos claros y con listas organizadas para que sea fácil de leer.",
     image: "/Dashboard.png",
-    liveLink: "",
+    liveLink: "https://youtu.be/PtdvmICcNSs",
     githubLink: "/contact",
     technologies: ["ASP.NET Core", "Bootstrap", "C#"],
   },
@@ -33,7 +32,7 @@ const projects = [
     description:
       "Me avisaron por la tarde y por la mañana ya estaba lista: programé una web limpia y moderna en solo hora y media para poder presentarla a tiempo.",
     image: "/GeneracionBlack.png",
-    liveLink: "",
+    liveLink: "https://youtu.be/TRKgRSnFHuE",
     githubLink: "/contact",
     technologies: ["ASP.NET Core", "Bootstrap", "C#"],
   },
@@ -51,7 +50,7 @@ const projects = [
     description:
       "Para una gestoría programé toda la aplicación web para gestionar clientes. Faltó solo una pequeña parte porque había que priorizar otro proyecto más urgente.",
     image: "/Gestoria.png",
-    liveLink: "",
+    liveLink: "https://youtu.be/3rfxMMjN4uY",
     githubLink: "/contact",
     technologies: ["ASP.NET", "Bootstrap", "C#"],
   },
