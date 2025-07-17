@@ -1,10 +1,10 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap() {
-  const baseUrl = "https://robertnicuta.vercel.app";
+  const baseUrl = "https://dev.robertnicuta.com";
 
   // Rutas estáticas principales
-  const routes = ["", "/aboutme", "/contact", "/formentera-diseno-web"].map(
+  const routes = ["", "/aboutme", "/contact", "/projects"].map(
     (route) => ({
       url: `${baseUrl}${route}`,
       lastModified: new Date().toISOString(),

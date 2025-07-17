@@ -248,9 +248,14 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                   <img src="/robertnicuta.jpeg" alt="Robert Nicuta" />
                 </div>
                 <div className="flip-card-back">
-                  <button className="btn-outline sec mt-30 cursor-not-allowed">
+                  <a
+                    href="/WEB_Robert_Nicuta_CV.pdf"
+                    download
+                    className="btn-outline sec mt-30"
+                  >
                     Descargar CV
-                  </button>
+                  </a>
+
                   {/*Aquí se puede sistuir por el BreakOut game */}
                 </div>
               </div>
