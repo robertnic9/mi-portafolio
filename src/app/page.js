@@ -19,6 +19,7 @@ export default function Home() {
       )}
       {showContent && (
         <main>
+          <Header />
           <Hero />
           <ProjectSection />
           <SkillSection />

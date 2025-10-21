@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Love Bici",
+    description:
+      "Una web con muchas fallas de diseño y con la funcionalidad de tienda online mal implementada, que tuve que volverla crear de zero para que la tienda online funcione correctamente. ",
+    image: "/lovebici.png",
+    liveLink:
+      "https://lovebici.es",
+    githubLink: "/contact",
+    technologies: ["WordPress", "WOOComerce", "RankMathSEO"],
+  },
+  {
     title: "Ibiza Circular",
     description:
       "Diseñé y programé la web desde cero. Me encargué de que tuviera un diseño bonito y fácil de usar, siguiendo las reglas oficiales del Consell de Ibiza.",

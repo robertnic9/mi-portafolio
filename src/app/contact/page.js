@@ -5,6 +5,7 @@ import Contact from "@/components/Contact";
 export default function ProjectPage() {
   return (
     <main>      
+      <Header />
       <Contact />
       <Footer /> 
     </main>

@@ -195,8 +195,8 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 Robert Nicuta
               </p>
               <p className="text-xs md:text-sm my-1">
-                Tengo 19 años y últimamente me estoy dedicando al marketing y
-                branding en Formentera y estudié{" "}
+                Tengo 20 años me dedico al marketing y desarrolo web en
+                Formentera. Estudié{" "}
                 <span className="font-bold text-xs">PROGRAMACIÓN</span>, ya que
                 se me da bien solucionar problemas.
               </p>
@@ -205,7 +205,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
               </h3>
               <p className="text-xs md:text-sm mb-2">
                 Me encargo de solucionar todo tipo de problemas digitales que
-                pueda tener el negocio y proporcionar ideas de cómo darse a
+                pueda tener los negocios y proporcionar ideas de cómo darse a
                 conocer y conseguir más clientes,{" "}
                 <span className="font-medium">
                   ofreciendo soluciones a medida.
@@ -213,34 +213,17 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
               </p>
               <p className="text-xs md:text-sm mb-2">
                 Me suelo encargar de la web, las redes y marketing de pago en
-                Google, Facebook y Instagram. Estoy trabajando para{" "}
-                <a
-                  className="font-medium underline"
-                  href="https://loveformentera.es/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  Love Formentera
-                </a>
-                ,{" "}
-                <a
-                  className="font-medium underline"
-                  href="https://lovebici.com/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  Love Bici
-                </a>{" "}
-                y{" "}
-                <a
-                  className="font-medium underline"
-                  href="https://lucasre.it/"
-                  rel="noopener"
-                  target="_blank"
-                >
-                  LucasRe.
-                </a>
+                Google, Facebook e Instagram.
+                <br />
               </p>
+              <a
+                className=" underline font-medium"
+                href="https://robertnicuta.com/"
+                rel="noopener"
+                target="_blank"
+              >
+                Visita mi web de servicios.{" "}
+              </a>
             </div>
             <div className="flip-card">
               <div className="flip-card-inner">

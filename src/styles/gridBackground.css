@@ -19,25 +19,24 @@ p,h1,h2,h3,h4,h5,span :hover{
 }
 /* Nueva capa de luz que sigue el mouse */
 .glow-effect {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background: radial-gradient(circle, rgba(66, 66, 66, 0.4) 25%, rgba(0, 0, 0, 0) 60%);
-    border-radius: 100%;
-    pointer-events: none; /* Para que no afecte la interacción */
-    transform: translate(-50%, -50%); /* Centrar la luz */
-    transition: transform 0.1s ease-out; /* Suavizar el movimiento */
-    z-index: 1;
-
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(66, 66, 66, 0.4) 25%, rgba(0, 0, 0, 0) 60%);
+  border-radius: 100%;
+  pointer-events: none; /* Para que no afecte la interacción */
+  transform: translate(-50%, -50%); /* Centrar la luz */
+  transition: transform 0.1s ease-out; /* Suavizar el movimiento */
+  z-index: 1;
 }
 
 /* Efecto de oscurecimiento en los bordes */
 .mask-overlay {
-    position: fixed;
-    inset: 0;
-    background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 20%, black 100%);
-    pointer-events: none;
-    z-index: -1;
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 20%, black 100%);
+  pointer-events: none;
+  z-index: -1;
 }
 
 /*Modifico el Scroll Bar */
@@ -67,7 +66,14 @@ html::-webkit-scrollbar-thumb {
   pointer-events: none;
   transform: translate(-50%, -50%);
   z-index: 10000;
+  transition: transform 0.15s ease, background-color 0.25s ease;
 }
+
+.custom-cursor.click {
+  transform: translate(-50%, -50%) scale(0.8);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 
 @media (max-width: 600px) {
   .glow-effect {
