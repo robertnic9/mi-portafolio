@@ -26,7 +26,7 @@ export default function HelloAnimation({ onAnimationEnd }) {
       setShowAnimation(true);
       sessionStorage.setItem("hasSeenAnimation", "true");
     } else {
-      onAnimationEnd(); // Si ya la vio en esta sesión, saltamos la animación
+      onAnimationEnd();
     }
   }, []);
 
@@ -52,7 +52,7 @@ export default function HelloAnimation({ onAnimationEnd }) {
         >
           <motion.h1
             key={greetings[index]}
-            className="font-bold"
+            className="font-bold text-xl"
             initial={{ opacity: 0, y: 5 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -5 }}

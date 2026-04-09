@@ -1,13 +1,16 @@
 "use client";
 import Pagetitle from "./PageTitle";
+import { useTranslations } from "next-intl";
 import SkillData1 from "@/data/SkillData1";
 import SkillData2 from "@/data/SkillData2";
 import "@/styles/SkillSection.css";
 
 function SkillSection() {
+  const t = useTranslations("skills");
+
   return (
     <section id="skill">
-      <Pagetitle title={"SKILLS"} />
+      <Pagetitle title={t("title")} />
       {/*Optimizar codigo slider pasarlo a componente*/}
       <div
         className="slider"

@@ -1,5 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
+import {notFound} from 'next/navigation';
+import {routing} from '@/i18n/routing';
+
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import GridBackground from "@/components/GridBackground";
 
@@ -16,17 +21,17 @@ const geistMono = Geist_Mono({
 // Definiciones principales para reutilizar
 const siteName = "Robert Nicuta";
 const siteTitle =
-  "Robert Nicuta | Diseño Web y Desarrollo de Aplicaciones en Formentera";
+  "Robert Nicuta |  Desarrollador Web en Formentera.";
 const siteDescription =
-  "Este es mi portafolio de desarrolador de aplicaciones web, donde muestro los proyectos que he participado y los lenguajes de programación que utilizo.";
-const siteUrl = "https://www.dev.robertnicuta.com/";
-const siteImage = "https://www.dev.robertnicuta.com/miportafolio.png";
+  "Este es mi portafolio de desarrolador de aplicaciones web, donde muestro los proyectos que he participado.";
+const siteUrl = "https://www.robertnicuta.com/";
+const siteImage = "https://www.robertnicuta.com/miportafolio.png";
 
 export const metadata = {
   title: siteTitle,
   description: siteDescription,
   keywords:
-    "diseño web Formentera, desarrollo aplicaciones, Next.js, React, PHP, JavaScript, Tailwind, SEO, UX/UI, freelance, programador web",
+    "diseño web Formentera, desarrollo aplicaciones, Next.js, React, PHP, JavaScript, Tailwind, programador web formentera, programador web ibiza, programador web mallorca",
   authors: [{ name: "Robert Nicuta" }],
   robots: "index, follow",
   alternates: {
@@ -42,7 +47,7 @@ export const metadata = {
         url: siteImage,
         width: 1200,
         height: 630,
-        alt: "Robert Nicuta - Diseño Web y Desarrollo de Aplicaciones",
+        alt: "Robert Nicuta - Desarollador de Aplicaciones Web",
       },
     ],
     locale: "es_ES",
@@ -56,9 +61,19 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+
+  if (!routing.locales.includes(locale)) {
+    // Return early or handle notFound (we can just let it render or not found)
+  }
+
+  // Providing all messages to the client
+  const messages = await getMessages({ locale });
+
   return (
-    <html lang="es">
+    <html lang={locale}>
       <head>
         <meta
           name="google-site-verification"
@@ -70,8 +85,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <GridBackground />
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          <GridBackground />
+          {children}
         <SpeedInsights />
         <script
           type="application/ld+json"
@@ -87,7 +103,7 @@ export default function RootLayout({ children }) {
               sameAs: [
                 "https://github.com/robertnic9",
                 "https://www.linkedin.com/in/robert-nicuta/",
-                "https://www.instagram.com/robertnicuta_",
+                "https://www.instagram.com/",
               ],
               worksFor: {
                 "@type": "Organization",
@@ -114,6 +130,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

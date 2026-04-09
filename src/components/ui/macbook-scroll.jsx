@@ -111,7 +111,7 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
           translateY: textTransform,
           opacity: textOpacity,
         }}
-        className="dark:text-white text-neutral-800 text-3xl font-bold mb-20 text-center"
+        className="text-white text-3xl font-bold mb-20 text-center"
       >
         {title || (
           <span>
@@ -216,14 +216,6 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 Google, Facebook e Instagram.
                 <br />
               </p>
-              <a
-                className=" underline font-medium"
-                href="https://robertnicuta.com/"
-                rel="noopener"
-                target="_blank"
-              >
-                Visita mi web de servicios.{" "}
-              </a>
             </div>
             <div className="flip-card">
               <div className="flip-card-inner">
