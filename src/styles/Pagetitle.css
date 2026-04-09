@@ -1,30 +1,32 @@
 .outlineText {
-  font-size: 4rem;
-  color: #fed7aa; /* Color normal para móvil */
+  font-size: clamp(2rem, 8vw, 4rem);
+  color: #fed7aa;
+  max-width: 100%;
   z-index: -1;
 }
 
 @media (min-width: 640px) {
   .outlineText {
-    font-size: 6rem;
-    color: transparent; /* Hace el relleno transparente */
-    -webkit-text-stroke: 3px #fed7aa; /* Aplica el contorno */
+    font-size: clamp(4rem, 10vw, 6rem);
+    color: transparent;
+    -webkit-text-stroke: 3px #fed7aa;
   }
 }
 
 @media (min-width: 768px) {
   .outlineText {
-    font-size: 10rem;
+    font-size: clamp(5rem, 11vw, 8rem);
   }
 }
 
 @media (min-width: 992px) {
   .outlineText {
-    font-size: 14rem;
+    font-size: clamp(6rem, 12vw, 10rem);
   }
 }
+
 @media (min-width: 1260px) {
   .outlineText {
-    font-size: 18rem;
+    font-size: clamp(7rem, 12vw, 12rem);
   }
 }
