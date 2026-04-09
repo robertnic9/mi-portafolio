@@ -1,4 +1,4 @@
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, liveText, githubText }) {
   return (
     <li className="grid grid-row-[1fr_auto] text-left gap-4 rounded-lg shadow-lg bg-zinc-800">
       <a

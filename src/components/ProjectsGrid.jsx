@@ -1,12 +1,11 @@
 import React from "react";
-import projects from "@/data/projects";
 import ProjectCard from "./ProjectCard";
 
-const ProjectsGrid = () => {
+const ProjectsGrid = ({ projectsList, liveText, githubText }) => {
   return (
-    <ul className="grid grid-cols-1  gap-12 w-full sm:grid-cols-2 lg:grid-cols-3 z-10 mt-20">
-      {projects.slice(0, 6).map((project, index) => (
-        <ProjectCard project={project} key={index} />
+    <ul className="grid grid-cols-1  gap-12 w-full sm:grid-cols-2 lg:grid-cols-3 z-10">
+      {projectsList.slice(0, 6).map((project, index) => (
+        <ProjectCard project={project} key={index} liveText={liveText} githubText={githubText} />
       ))}
     </ul>
   );

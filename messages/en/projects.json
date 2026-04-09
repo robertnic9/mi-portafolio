@@ -1,0 +1,103 @@
+{
+  "projects": [
+    {
+      "title": "Love Bici",
+      "description": "A website with many design flaws and poorly implemented online store functionality, which I had to recreate from scratch so the online store works correctly.",
+      "image": "/lovebici.png",
+      "liveLink": "https://lovebici.com",
+      "githubLink": "/contact",
+      "technologies": ["WordPress", "WOOComerce", "RankMathSEO"]
+    },
+    {
+      "title": "Ibiza Circular",
+      "description": "Designed and programmed the web from scratch. Made sure it had a beautiful and user-friendly design, following the official rules of the Consell de Ibiza.",
+      "image": "/ibizacircular.png",
+      "liveLink": "https://ibizacircular.es/",
+      "githubLink": "https://youtu.be/PtdvmICcNSs",
+      "technologies": ["ASP.NET Core", "Bootstrap", "C#"]
+    },
+    {
+      "title": "Love Formentera",
+      "description": "I did a study so people can find the house on Google and prepared an elegant design for the website. I also took the photos and manage social networks to promote it.",
+      "image": "/loveformentera.png",
+      "liveLink": "https://loveformentera.es/alquiler-vacacional-formentera/marina-house/",
+      "githubLink": "/contact",
+      "technologies": ["WordPress", "ElementorPro", "RankMathSEO"]
+    },
+    {
+      "title": "APP Ibiza Circular",
+      "description": "Programmed the visual part of the website used by the Consell for Ibiza Circular, showing all information in clear charts and organized lists to make it easy to read.",
+      "image": "/Dashboard.png",
+      "liveLink": "https://youtu.be/PtdvmICcNSs",
+      "githubLink": "/contact",
+      "technologies": ["ASP.NET Core", "Bootstrap", "C#"]
+    },
+    {
+      "title": "Embargos APP",
+      "description": "They notified me in the afternoon and by morning it was ready: I programmed a clean and modern website in just an hour and a half to present it on time.",
+      "image": "/GeneracionBlack.png",
+      "liveLink": "https://youtu.be/TRKgRSnFHuE",
+      "githubLink": "/contact",
+      "technologies": ["ASP.NET Core", "Bootstrap", "C#"]
+    },
+    {
+      "title": "La Vie Éternelle",
+      "description": "Designed the image of a luxury watch brand and programmed its website with 5 pages. I gave it an elegant style and took great care of every detail to convey quality.",
+      "image": "/lavie.jpeg",
+      "liveLink": "https://lavieeternelle.vercel.app/",
+      "githubLink": "https://github.com/robertnic9/mi-portafolio",
+      "technologies": ["Next.js", "Tailwind", "JavaScript"]
+    },
+    {
+      "title": "Client Portfolio App",
+      "description": "For an agency, I programmed the entire web application to manage clients. Only a small part was missing because another more urgent project had to be prioritized.",
+      "image": "/Gestoria.png",
+      "liveLink": "https://youtu.be/3rfxMMjN4uY",
+      "githubLink": "/contact",
+      "technologies": ["ASP.NET", "Bootstrap", "C#"]
+    },
+    {
+      "title": "My Portfolio",
+      "description": "My first modern project with new tools I learned on my own. I programmed a fast and beautiful website to show what I can do.",
+      "image": "/miportafolio.jpeg",
+      "liveLink": "/",
+      "githubLink": "https://github.com/robertnic9/mi-portafolio",
+      "technologies": ["Next.js", "Tailwind", "JavaScript"]
+    },
+    {
+      "title": "E-Learning Platform",
+      "description": "A website where students can register, take courses and exams. I programmed it entirely so it is dynamic and comfortable for learning.",
+      "image": "/elearning.png",
+      "liveLink": "https://github.com/robertnic9/proyectofinal",
+      "githubLink": "https://github.com/robertnic9/proyectofinal",
+      "technologies": ["React", "PHP", "JavaScript", "SASS"]
+    },
+    {
+      "title": "Siete y Medio Game",
+      "description": "An online card game where you can play from the browser, with a fun and interactive experience.",
+      "image": "/setymig.jpeg",
+      "liveLink": "http://vps-dadb9edf.vps.ovh.net/cartas/index.html",
+      "githubLink": "https://github.com/robertnic9/set-i-mig",
+      "technologies": ["PHP", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "title": "School Supplies Web",
+      "description": "An online store of school supplies with an AI virtual assistant to help the customer quickly.",
+      "image": "/materialescolar.jpeg",
+      "liveLink": "https://robertnic9.github.io/material-escolar/",
+      "githubLink": "https://github.com/robertnic9/material-escolar",
+      "technologies": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "title": "Color Generator",
+      "description": "A tool for designers that generates 10 different shades of the same color, to easily create harmonic combinations.",
+      "image": "/colores.jpeg",
+      "liveLink": "https://robertnic9.github.io/generador-colores/",
+      "githubLink": "https://github.com/robertnic9/generador-colores",
+      "technologies": ["React", "CSS", "JavaScript"]
+    }
+  ],
+  "title": "My Projects",
+  "live": "Live Preview",
+  "github": "Source Code"
+}
