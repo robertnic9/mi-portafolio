@@ -3,7 +3,7 @@ import "../globals.css";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
-
+import { useTranslations } from "next-intl";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import GridBackground from "@/components/GridBackground";
 
@@ -16,21 +16,21 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
+const t = useTranslations("metadata");
 // Definiciones principales para reutilizar
-const siteName = "Robert Nicuta";
+const siteName = t("siteName");
 const siteTitle =
-  "Robert Nicuta |  Desarrollador Web en Formentera.";
+  t("siteTitle");
 const siteDescription =
-  "Este es mi portafolio de desarrolador de aplicaciones web, donde muestro los proyectos que he participado.";
-const siteUrl = "https://www.robertnicuta.com/";
-const siteImage = "https://www.robertnicuta.com/miportafolio.png";
+  t("siteDescription");
+const siteUrl = t("siteUrl");
+const siteImage = t("siteImage");
 
 export const metadata = {
   title: siteTitle,
   description: siteDescription,
   keywords:
-    "diseño web Formentera, desarrollo aplicaciones, Next.js, React, PHP, JavaScript, Tailwind, programador web formentera, programador web ibiza, programador web mallorca",
+    t("keywords"),
   authors: [{ name: "Robert Nicuta" }],
   robots: "index, follow",
   alternates: {
@@ -88,47 +88,6 @@ export default async function RootLayout({ children, params }) {
           <GridBackground />
           {children}
         <SpeedInsights />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Robert Nicuta",
-              jobTitle: "Diseñador Web y Desarrollador de Aplicaciones",
-              url: siteUrl,
-              image: siteImage,
-              description: siteDescription,
-              sameAs: [
-                "https://github.com/robertnic9",
-                "https://www.linkedin.com/in/robert-nicuta/",
-                "https://www.instagram.com/",
-              ],
-              worksFor: {
-                "@type": "Organization",
-                name: "Freelance",
-                url: siteUrl,
-              },
-              knowsAbout: [
-                "Diseño web",
-                "Desarrollo de aplicaciones",
-                "Next.js",
-                "React",
-                "PHP",
-                "JavaScript",
-                "Tailwind",
-                "SEO",
-                "UX/UI",
-              ],
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Formentera",
-                addressRegion: "Islas Baleares",
-                addressCountry: "España",
-              },
-            }),
-          }}
-        />
         </NextIntlClientProvider>
       </body>
     </html>

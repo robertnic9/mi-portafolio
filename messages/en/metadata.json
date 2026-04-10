@@ -1,0 +1,38 @@
+{
+    "title": "Robert Nicuta | Web Developer in Formentera.",
+    "description": "This is my portfolio of web application developer, where I show the projects I have participated in.",
+    "keywords": "web design Formentera, application development, Next.js, React, PHP, JavaScript, Tailwind, web programmer Formentera, web programmer Ibiza, web programmer Mallorca",
+    "authors": [
+        {
+            "name": "Robert Nicuta"
+        }
+    ],
+    "robots": "index, follow",
+    "alternates": {
+        "canonical": "https://www.robertnicuta.com/"
+    },
+    "openGraph": {
+        "title": "Robert Nicuta | Web Developer in Formentera.",
+        "description": "This is my portfolio of web application developer, where I show the projects I have participated in.",
+        "url": "https://www.robertnicuta.com/",
+        "siteName": "Robert Nicuta",
+        "images": [
+            {
+                "url": "https://www.robertnicuta.com/miportafolio.png",
+                "width": 1200,
+                "height": 630,
+                "alt": "Robert Nicuta - Web Developer in Formentera."
+            }
+        ],
+        "locale": "en_US",
+        "type": "website"
+    },
+    "twitter": {
+        "card": "summary_large_image",
+        "title": "Robert Nicuta | Web Developer in Formentera.",
+        "description": "This is my portfolio of web application developer, where I show the projects I have participated in.",
+        "images": [
+            "https://www.robertnicuta.com/miportafolio.png"
+        ]
+    }
+}
