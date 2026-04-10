@@ -1,32 +1,8 @@
 {
-    "title": "Robert Nicuta | Desarrollador Web en Formentera.",
-    "description": "Este es mi portafolio de desarrolador de aplicaciones web, donde muestro los proyectos que he participado.",
-    "keywords": "diseño web Formentera, desarrollo aplicaciones, Next.js, React, PHP, JavaScript, Tailwind, programador web formentera, programador web ibiza, programador web mallorca",
-    "authors": [{ "name": "Robert Nicuta" }],
-    "robots": "index, follow",
-    "alternates": {
-        "canonical": "https://www.robertnicuta.com/"
-    },
-    "openGraph": {
-        "title": "Robert Nicuta | Desarrollador Web en Formentera.",
-        "description": "Este es mi portafolio de desarrolador de aplicaciones web, donde muestro los proyectos que he participado.",
-        "url": "https://www.robertnicuta.com/",
-        "siteName": "Robert Nicuta",
-        "images": [
-            {
-                "url": "https://www.robertnicuta.com/miportafolio.png",
-                "width": 1200,
-                "height": 630,
-                "alt": "Robert Nicuta - Desarollador de Aplicaciones Web"
-            }
-        ],
-        "locale": "es_ES",
-        "type": "website"
-    },
-    "twitter": {
-        "card": "summary_large_image",
-        "title": "Robert Nicuta | Desarrollador Web en Formentera.",
-        "description": "Este es mi portafolio de desarrolador de aplicaciones web, donde muestro los proyectos que he participado.",
-        "images": ["https://www.robertnicuta.com/miportafolio.png"]
-    }
+  "siteName": "Robert Nicuta",
+  "siteTitle": "Robert Nicuta | Desarrollador Web en Formentera.",
+  "siteDescription": "Este es mi portfolio de desarrollador de aplicaciones web, donde muestro los proyectos en los que he participado.",
+  "siteUrl": "https://www.robertnicuta.com/",
+  "siteImage": "https://www.robertnicuta.com/miportafolio.png",
+  "keywords": "diseño web Formentera, desarrollo de aplicaciones, Next.js, React, PHP, JavaScript, Tailwind, programador web Formentera, programador web Ibiza, programador web Mallorca"
 }

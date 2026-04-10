@@ -1,32 +1,8 @@
 {
-    "title": "Robert Nicuta | Sviluppatore Web a Formentera.",
-    "description": "Questo è il mio portfolio di sviluppatore di applicazioni web, dove mostro i progetti a cui ho partecipato.",
-    "keywords": "web design Formentera, sviluppo applicazioni, Next.js, React, PHP, JavaScript, Tailwind, programmatore web Formentera, programmatore web Ibiza, programmatore web Maiorca",
-    "authors": [{ "name": "Robert Nicuta" }],
-    "robots": "index, follow",
-    "alternates": {
-        "canonical": "https://www.robertnicuta.com/"
-    },
-    "openGraph": {
-        "title": "Robert Nicuta | Sviluppatore Web a Formentera.",
-        "description": "Questo è il mio portfolio di sviluppatore di applicazioni web, dove mostro i progetti a cui ho partecipato.",
-        "url": "https://www.robertnicuta.com/",
-        "siteName": "Robert Nicuta",
-        "images": [
-            {
-                "url": "https://www.robertnicuta.com/miportafolio.png",
-                "width": 1200,
-                "height": 630,
-                "alt": "Robert Nicuta - Sviluppatore di Applicazioni Web"
-            }
-        ],
-        "locale": "it_IT",
-        "type": "website"
-    },
-    "twitter": {
-        "card": "summary_large_image",
-        "title": "Robert Nicuta | Sviluppatore Web a Formentera.",
-        "description": "Questo è il mio portfolio di sviluppatore di applicazioni web, dove mostro i progetti a cui ho partecipato.",
-        "images": ["https://www.robertnicuta.com/miportafolio.png"]
-    }
+  "siteName": "Robert Nicuta",
+  "siteTitle": "Robert Nicuta | Sviluppatore Web a Formentera.",
+  "siteDescription": "Questo è il mio portfolio di sviluppatore di applicazioni web, dove mostro i progetti a cui ho partecipato.",
+  "siteUrl": "https://www.robertnicuta.com/",
+  "siteImage": "https://www.robertnicuta.com/miportafolio.png",
+  "keywords": "web design Formentera, sviluppo applicazioni, Next.js, React, PHP, JavaScript, Tailwind, programmatore web Formentera, programmatore web Ibiza, programmatore web Maiorca"
 }
