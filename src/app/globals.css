@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     background: #000000;
+}
+
+.outlineText {
+    color: #fed7aa;
+    display: block;
+    width: max-content;
+}
+
+@media (min-width: 640px) {
+    .outlineText {
+        color: transparent;
+        -webkit-text-stroke: 3px #fed7aa;
+    }
+}
+.animated-hr {
+  height: 4px;
+  width: 100%;
+  background: #fed7aa;
+  z-index: 99;
+  box-shadow: 0 0px 30px 10px rgba(254, 215, 170, 0.6);
+}
+
+/* Ocultar scrollbar en todos los navegadores */
+.scrollbar-none {
+  scrollbar-width: none;       
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;               
 }
