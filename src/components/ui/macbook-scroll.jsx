@@ -24,7 +24,9 @@ import { IconWorld } from "@tabler/icons-react";
 import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 import "@/styles/activities.css";
+import MapCard from "@/components/ui/mapcard";
 
 export const MacbookScroll = ({ src, showGradient, title, badge }) => {
   const ref = useRef(null);
@@ -32,7 +34,6 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
     target: ref,
     offset: ["start start", "end start"],
   });
-
   // Estado para la altura calculada
   const [calculatedHeight, setCalculatedHeight] = useState("150vh");
   const [isMobile, setIsMobile] = useState(false);
@@ -115,7 +116,7 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
       >
         {title || (
           <span>
-            This Macbook is built with Tailwindcss. <br /> No kidding.
+            Deja de leer codigo frikkie... 
           </span>
         )}
       </motion.h2>
@@ -156,6 +157,7 @@ export const MacbookScroll = ({ src, showGradient, title, badge }) => {
 };
 
 export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
+  const t = useTranslations("activities");
   return (
     <div className="relative [perspective:800px]">
       <div
@@ -172,9 +174,6 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
           }}
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
         >
-          <span className="text-white">
-            <AceternityLogo />
-          </span>
         </div>
       </div>
       <motion.div
@@ -195,26 +194,19 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                 Robert Nicuta
               </p>
               <p className="text-xs md:text-sm my-1">
-                Tengo 20 años me dedico al marketing y desarrolo web en
-                Formentera. Estudié{" "}
-                <span className="font-bold text-xs">PROGRAMACIÓN</span>, ya que
-                se me da bien solucionar problemas.
+                {t("about.intro")}{" "}
+                <span className="font-bold text-xs">{t("about.highlight")}</span>{" "}
+                {t("about.intro_end")}
               </p>
               <h3 className="font-bold text-lg bg-[linear-gradient(110deg,#000103,25%,#fed7aa,75%,#000103)] bg-[length:200%_100%] animate-shimmer bg-clip-text text-transparent my-1">
-                ¿QUÉ HAGO?
+                {t("about.plan_title")}
               </h3>
               <p className="text-xs md:text-sm mb-2">
-                Me encargo de solucionar todo tipo de problemas digitales que
-                pueda tener los negocios y proporcionar ideas de cómo darse a
-                conocer y conseguir más clientes,{" "}
-                <span className="font-medium">
-                  ofreciendo soluciones a medida.
-                </span>
-              </p>
-              <p className="text-xs md:text-sm mb-2">
-                Me suelo encargar de la web, las redes y marketing de pago en
-                Google, Facebook e Instagram.
+                {t("about.plan_goal")}{" "}
+                <span className="font-medium">{t("about.plan_goal_emphasis")}</span>{" "}
+                {t("about.plan_project")}
                 <br />
+                <span className="font-medium">{t("about.erasmus_description")}</span>
               </p>
             </div>
             <div className="flip-card">
@@ -223,15 +215,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
                   <img src="/robertnicuta.jpeg" alt="Robert Nicuta" />
                 </div>
                 <div className="flip-card-back">
-                  <a
-                    href="/WEB_Robert_Nicuta_CV.pdf"
-                    download
-                    className="btn-outline sec mt-30"
-                  >
-                    Descargar CV
-                  </a>
-
-                  {/*Aquí se puede sistuir por el BreakOut game */}
+                  <MapCard />  
                 </div>
               </div>
             </div>
@@ -696,27 +680,6 @@ export const OptionKey = ({ className }) => {
         width="32"
         height="32"
         stroke="none"
-      />
-    </svg>
-  );
-};
-
-const AceternityLogo = () => {
-  return (
-    <svg
-      width="66"
-      height="65"
-      viewBox="0 0 66 65"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-3 w-3 text-white"
-    >
-      <path
-        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-        stroke="currentColor"
-        strokeWidth="15"
-        strokeMiterlimit="3.86874"
-        strokeLinecap="round"
       />
     </svg>
   );
