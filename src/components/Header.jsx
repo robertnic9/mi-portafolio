@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <nav className="fixed top-6 left-0 w-full flex items-center justify-center z-50">
-      <ul className="relative grid grid-cols-5 items-center border border-white/10 backdrop-blur-md rounded-full shadow-lg w-full max-w-[680px] mx-4 md:mx-0">
+      <ul className="relative grid grid-cols-5 items-center border border-white/10 backdrop-blur-lg rounded-full shadow-lg w-full max-w-[680px] mx-4 md:mx-0">
 
         {navItems.map((item, index) => {
           const Icon = item.icon;

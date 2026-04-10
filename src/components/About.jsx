@@ -1,7 +1,6 @@
 import Pagetitle from "./PageTitle";
 import { useTranslations } from "next-intl";
 import { MacbookScrollDemo } from "./macbook";
-import "@/styles/HrAnimated.css";
 
 function AboutSection() {
   const t = useTranslations("about");

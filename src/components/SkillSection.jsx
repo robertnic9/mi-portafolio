@@ -11,7 +11,6 @@ function SkillSection() {
   return (
     <section id="skill">
       <Pagetitle title={t("title")} />
-      {/*Optimizar codigo slider pasarlo a componente*/}
       <div
         className="slider"
         style={{

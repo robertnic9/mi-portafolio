@@ -12,7 +12,7 @@ function ProjectSection() {
       className="sm:mb-4"
     >
       <Pagetitle title={t("title")} />
-      <div className="w-[80%] mx-auto mt-auto ">
+      <div className="sm:w-[80%] w-full mx-auto">
         <ProjectsGrid projectsList={projectsList} liveText={t("live")} githubText={t("github")} />
       </div>
     </section>
